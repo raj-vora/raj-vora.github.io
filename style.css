@@ -7,6 +7,15 @@ body{
   
 }
 
+h3{
+  text-align: center;
+  margin-top: 0px;
+}
+
+a{
+  color: green;
+}
+
 .head-text p {
   font-size: 25px;
   margin-left: 15%;
@@ -20,14 +29,12 @@ hr {
 }
 
 .white-box{
-  background-color: rgba(255,255,255, 0.6); 
-   
+  background-color: rgba(255,255,255, 0.6);    
   width: 100%;
   
 }
 
-header {
-  
+header {  
   height: 100vh;
   width: 100vw;
   background-image: url(https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb);
@@ -43,8 +50,8 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -54,11 +61,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  
-}
-
-.upper{
-  text-transform: uppercase; 
 }
 
 .width-50{
@@ -76,19 +78,6 @@ header {
 .btn-size-sm{
   font-size: 1em;
   height: 50px;
-}
-
-.port-box{
-  /*height: 300px;
-  width: 300px;*/
-  background-color: rgb(120,120,120);
-  border: 3px solid #3C3C3C; 
-  border-radius: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
-  /*padding for placement of actual portfolio sites. remove once portfolio sites go in. purpose is just for spacing*/
-  padding-top: 20%; 
-  padding-bottom: 20%;
 }
 
 .mar-bot-15{
@@ -116,8 +105,6 @@ header {
   
 }
 
-
-
 .social-media{
   list-style-type: none; 
   display: inline; 
@@ -127,4 +114,86 @@ header {
 
 ul{
   margin-right: 30px;
+}
+
+.image{
+  height: 80%;
+  width: 80%;
+}
+
+/*Card css*/
+
+.card {
+  align-content: center;
+  display: inline-block;
+  position: center;
+  width: 400px;
+  height: 400px;
+  opacity: 0.85;
+}
+.front, .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  background-color: rgb(120,120,120);
+  border: 3px solid #3C3C3C; 
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  /*padding for placement of actual portfolio sites. remove once portfolio sites go in. purpose is just for spacing*/
+  padding-top: 20%; 
+  padding-bottom: 20%;
+}
+.front {
+  transform: rotateY(0deg);
+  background-color: rgb(120,120,120);
+  border: 3px solid #3C3C3C; 
+  text-align: center;
+  padding: 30px;
+}
+.back {
+  background-color: rgb(120,120,120);
+  border: 3px solid #3C3C3C; 
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  padding: 40px 15px;
+  color: #fff;
+}
+.card:hover .front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+.card:hover .back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+//styling
+.front .contact {
+  height: 120px;
+  width: 120px;
+  border: 5px solid #B2DBBF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.front .name {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+}
+.front .job {
+  color: #fff;
+}
+.front hr {
+  border: none;
+  color: #B2DBBF;
+  border: 1px solid;
 }

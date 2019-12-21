@@ -1,148 +1,174 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Raj Vora</title>
-  <script src="https://use.fontawesome.com/d8ba3b9667.js"></script><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'><link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          <a class="navbar-brand" href="#">Raj Vora</a>
+  <head>
+    <meta charset="UTF-8">
+    <title>Raj Vora</title>
+    <script src="https://use.fontawesome.com/d8ba3b9667.js"></script><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'><link rel="stylesheet" href="./style.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" style="color: aliceblue;" href="#">Raj Vora</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li> 
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li> 
+      </nav>
+      <div id="about"></div>
+      <header>
+        <div class="head-text white-box" >
+          <h1 class="head-texts">Raj Vora</h1>
+          <hr>
+          <h2 class="head-text">Software Developer</h2>
+          <p class="head-text">
+            Hi, I'm a budding software developer with some basic experience. 
+            I have currently worked on web development using PHP and am exploring the node.js environment. 
+            Android development is also one of my many interests.
+            <br> 
+            You can get in touch with me at <a href="mailto:rajvora1998@gmail.com">rajvora1998@gmail.com</a> or drop a DM at <a href="www.instagram.com/rajvora._">rajvora._</a> 
+            Check out my resume <a href="http://drive.google.com/uc?export=download&id=1fp1OoAM1iznIX9y__XGB7PSP8rHMdDUy">here</a>.
+          </p>
+        </div>
+        
+        <div id="portfolio">
+        </div>
+      </header>
+
+      <!-- portfolio section -->
+      <div>
+        <div class="spacer-top spacer-bot">
+          <h2 class="text-uppercase text-center">portfolio<h2>
+            <hr>
+        </div>
+
+        <div class="row mar-bot-15">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Smart Locking System</span>
+                <hr>
+                <img src='./images/smart_lock_logo.jpg' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>Smart lock for homes implementing NSDT as it’s chief aspect. Currently working on this as Final Year Project</p>                  
+                  <span>Tech Stack</span><hr>
+                  <p>Flutter, Python, Firebase, Chirp</p>
+                  <br>
+                  <p>Follow this project at <a href="https://github.com/raj-vora/SLSApp" target="blank">Smart Lock</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-md-4">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Expense Manager</span>
+                <hr>
+                <img src='./images/expense_manager_logo.PNG' class='image' />
+              </div>
+              <div class='back'>
+                <h3>  
+                  <p>Expense manager for an individual as well as for group expenses. Major feature was using OCR to get the bill amount and restaurant name. Worked on this during KJSCE HACK.</p>
+                  <span>Tech Stack</span><hr>
+                  <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+                  <br>
+                  <p>Follow this project at <a href="https://github.com/raj-vora/Expense-Manager" target="blank">Expense Manager</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+
+          <div class="row mar-bot-15">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <div class='card'>
+                <div class='front'>
+                  <span class='name'>Outfit Planner</span>
+                  <hr>
+                  <img src='./images/outfit_planner_logo.png' class='image' />
+                </div>
+                <div class='back'>
+                  <h3>
+                    <p>Android application to assist blind/colorblind people in choosing their attire. Paper presented at the National Conference on Disability, Accessibility, Inclusion and Wellbeing 2019</p>
+                    <span>Tech Stack</span><hr>
+                    <p>Android Studio; Heroku; Python- Flask, Webcolors</p>
+                    <br>
+                    <p>Follow this project at <a href="https://github.com/raj-vora/OutfitPlanner" target="blank">Outfit Planner</a></p>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+  
+            <div class="col-md-4">
+              <div class='card'>
+                <div class='front'>
+                  <span class='name'>Travnal</span>
+                  <hr>
+                  <img src='./images/travnal_logo.png' class='image' />
+                </div>
+                <div class='back'>
+                  <h3>  
+                    <p>Social Media and travelers are something that goes a long way together. So rather than travelers adjusting their content for social media. We decided to build social media tailor made for their needs</p>
+                    <span>Tech Stack</span><hr>
+                    <p>EJS, NodeJS, MongoDB, CSS, JavaScript</p>
+                    <br>
+                    <p>Follow this project at <a href="https://github.com/raj-vora/Travnal" target="blank">Travnal</a></p>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      <!-- End portfolio section-->
+      <div id="contact-sec"></div>
+    
+      </div>
+    
+      <!--Contact section-->
+      <div class="inner-pad extend" id="contact"> <!-- background for contact section-->
+        <div class="spacer-top spacer-bot">
+          <h2 class="text-uppercase text-center">contact<h2>
+          <hr>
+        </div>
+        <div class="text-center extend">
+          <ul>
+            <li class="social-media"><a href="https://github.com/raj-vora" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>&emsp;
+            <li class="social-media"><a href="https://github.com/raj-vora" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>GitHub</a></li>&emsp;
+            <li class="social-media"><a href="https://www.linkedin.com/in/rajvora25" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></li>&emsp;
+            <li class="social-media"><a href="https://www.facebook.com/rajv25" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
           </ul>
         </div>
       </div>
-    </nav>
-    
-    <header>
-      <div class="head-text white-box">
-        <h1 class="head-texts">Raj Vora</h1>
-        <hr>
-        <h2 class="head-text">Software Developer</h2>
-        <p class="head-text">Hi, I'm a budding software developer with some very basic experience. I have currently worked on web development using PHP and am exploring the node.js environment. Android development is also one of my many interests. I've built this site as a practice site. Project details coming up very soon. You can get in touch with me at <a href="mailto:rajvora1998@gmail.com">rajvora1998@gmail.com</a> or drop a DM at <a href="www.instagram.com/rajvora._">rajvora._</a></p>
-
-      </div>
-      
-      <div id="portfolio">
-      </div>
-    </header>
-    
-
-    <!-- portfolio section -->
-
-    <div class="spacer-top spacer-bot">
-      <h2 class="text-uppercase text-center">portfolio<h2>
-        <hr>
-    </div>
-
-    <div class="row mar-bot-15">
-      <div class="col-md-6">
-        <div class="port-box">
-          <p class="text-center">Coming Soon!</p>
-
-        </div>
-
-      </div>
-
-      <div class="col-md-6">
-        <div class="port-box">
-          <p class="text-center">Coming Soon!</p>
-
-        </div>
-      </div>
-
-    </div>
-
-
-  <div class="row mar-bot-15">
-    <div class="col-md-6">
-      <div class="port-box">
-        <p class="text-center">Coming Soon!</p>
-
-      </div>
-
-    </div>
-
-    <div class="col-md-6">
-      <div class="port-box">
-        <p class="text-center">Coming Soon!</p>
-
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row mar-bot-15">
-    <div class="col-md-6">
-      <div class="port-box">
-        <p class="text-center">Coming Soon!</p>
-
-      </div>
-
-    </div>
-
-    <div class="col-md-6">
-      <div class="port-box">
-        <p class="text-center">Coming Soon!</p>
-
-      </div>
-    </div>
-
-  </div>
-
-  <div id="contact-sec">
-      </div>
-  <!-- End portfolio section-->
-
-  <!--
-  ======================
-  Contact section
-  ======================
-  -->
-  <div class="inner-pad extend" id="contact"> <!-- background for contact section-->
-  <div class="spacer-top spacer-bot">
-    <h2 class="text-uppercase text-center">contact<h2>
-        <hr>
-    </div>
-    
-    <div class="width-50">
-      <div class="text-center extend">
-        <ul>
-          <li class="social-media"><a href="https://github.com/raj-vora" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>GitHub</a></li>
-          <li class="social-media"><a href="https://www.linkedin.com/in/rajvora25" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></li>
-          <li class="social-media"><a href="https://www.facebook.com/rajv25" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-        </ul>
-      </div>
-    </div>
-      
-    </div> 
-    
-    </div>
-    
+          
+    </div> <!-- end container-fluid -->  
     
     <footer>
-      
-      
       <h4 class="text-center">Made with ❤ by Raj Vora</h4>
-      
     </footer>  
-  </div> <!-- end container-fluid -->
-<!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-</body>
+    
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  </body>
 </html>
