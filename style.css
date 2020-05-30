@@ -1,4 +1,5 @@
-body{
+
+  body{
   padding-top: 50px;
 }
 .head-text {
@@ -12,7 +13,7 @@ h3{
   margin-top: 0px;
 }
 
-a{
+.contactlink{
   color: green;
 }
 
@@ -29,7 +30,7 @@ hr {
 }
 
 .white-box{
-  background-color: rgba(255,255,255, 0.6);    
+  background-color: rgba(255,255,255, 0.6);
   width: 100%;
   
 }
@@ -42,7 +43,7 @@ header {
   background-position: center;
   margin-bottom: 50px;
   margin-left: -15px ;
-  margin-right: -15px
+  margin-right: -15px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -101,7 +102,7 @@ header {
 }
 
 #contact{
-  background-color: #CCCCCC;
+  background-color: lightblue;
   
 }
 
@@ -154,18 +155,17 @@ ul{
 }
 .front {
   transform: rotateY(0deg);
-  background-color: rgb(120,120,120);
+  background-color: #337ab7;
   border: 3px solid #3C3C3C; 
   text-align: center;
   padding: 30px;
 }
 .back {
-  background-color: rgb(120,120,120);
+  background-color: lightblue;
   border: 3px solid #3C3C3C; 
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   padding: 40px 15px;
-  color: #fff;
 }
 .card:hover .front {
   -webkit-transform: rotateY(-180deg);
@@ -175,7 +175,7 @@ ul{
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
-//styling
+
 .front .contact {
   height: 120px;
   width: 120px;
@@ -186,7 +186,7 @@ ul{
 }
 .front .name {
   display: inline-block;
-  font-size: 18px;
+  font-size: 25px;
   color: #fff;
 }
 .front .job {
@@ -196,4 +196,33 @@ ul{
   border: none;
   color: #B2DBBF;
   border: 1px solid;
+} 
+
+@media screen and (max-width:991px){
+  
+}
+
+@media screen and (max-width: 800px) { /* The width is 100%, when the viewport is 800px or smaller */
+  .front, .back {
+    margin-left: 0;
+    width: 80vw;
+    height: 80vw;
+  }
+
+  nav{
+    width: 100vw;
+  }
+
+  .card {
+    width: 80vw;
+    height: 80vw; }
+
+  .image {
+    height: 70%;
+    width: 70%;
+  }
+
+  h3 {
+    font-size: 4.5vw;
+  }
 }
