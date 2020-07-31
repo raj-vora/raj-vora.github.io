@@ -17,7 +17,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span> 
             </button>
-            <a class="navbar-brand" style="color: aliceblue;" href="#">Raj Vora</a>
+            <a class="navbar-brand" id="name" href="#">Raj Vora</a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -34,25 +34,132 @@
         <div class="head-text white-box" >
           <h1 class="head-texts">Raj Vora</h1>
           <hr>
-          <h2 class="head-text">{ Developer: [ "Web", "Mobile Application" ] } | CS Undergrad<br><br>
+          <h2 class="head-text">{ Developer: [ "Web", "Mobile Application" ] }<br>
+            CS Undergrad<br><br>
           <div class="head-text">You can get in touch with me at <a href="mailto:rajvora1998@gmail.com" target="blank">rajvora1998@gmail.com</a>.</div>
         </div>
         
-        <div id="portfolio">
-        </div>
+        
       </header>
 
       <!-- portfolio section -->
-      <div>
+      <div id='portfolio'>
+        
         <div class="spacer-top spacer-bot">
           <h2 class="text-uppercase text-center">Projects<h2>
             <hr>
-        </div>
-
+        </div>  
+        <h3 class="text-uppercase text-center">Mobile Applications</h3><br>
         <div class="row mar-bot-15">
-            <h3 class="text-uppercase text-center">Mobile Applications</h3><br>
+    
           <div class="col-md-1"></div>
           <div class="col-md-4" style="text-align: center">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Bitcoin Ticker</span>
+                <hr>
+                <img src='./images/bitcoin.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>A crypto currency price checking app. Monitor your bitcoin investents on the move! Shows the rate for BTC, ETH, LTC for all major currencies.</p>
+                  <hr> 
+                  <p>Tech Stack: Flutter, CoinAPI.io</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/bitcoin-ticker-flutter" target="blank">Bitcoin Ticker</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-md-4">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Clima</span>
+                <hr>
+                <img src='./images/clima.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>A weather app inspired by the beautiful designs made by <a href="https://dribbble.com/shots/4663154-">Olia Gozha</a>. Able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!</p>                  
+                  <hr> 
+                  <p>Tech Stack: Flutter, OpenWeatherMap API</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/clima-flutter" target="blank">Smart Lock</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row mar-bot-15">
+    
+          <div class="col-md-1"></div>
+          <div class="col-md-4" style="text-align: center">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>BMI Calculator</span>
+                <hr>
+                <img src='./images/bmi.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>Body Mass Index Calculator inspired by the beautiful designs made by <a href="https://dribbble.com/shots/4585382-Simple-BMI-Calculator">Ruben Vaalt</a>. A multi screen app with simple functionality but full-on custom styling.</p>
+                  <hr> 
+                  <p>Tech Stack: Flutter</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/bmi-calculator-flutter" target="blank">BMI Calculator</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-md-4">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Todoey</span>
+                <hr>
+                <img src='./images/todo.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>A simple To-Do List App</p>                  
+                  <hr> 
+                  <p>Tech Stack: Flutter</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/todoey-flutter" target="blank">Todoey</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row mar-bot-15">
+            
+          <div class="col-md-1"></div>
+          <div class="col-md-4" style="text-align: center">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Dice App</span>
+                <hr>
+                <img src='./images/dice.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>Get a virtual pair of dice for any board game anytime, anywhere!</p>                  
+                  <hr> 
+                  <p>Tech Stack: Flutter</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/dice-flutter" target="blank">Dice</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-md-4">
             <div class='card'>
               <div class='front'>
                 <span class='name'>Smart Lock</span>
@@ -63,13 +170,37 @@
                 <h3>
                   <p>Smart lock for homes implementing NSDT as it’s chief aspect. Currently working on this as Final Year Project</p>                  
                   <hr> 
-                  <p>Flutter, Python, Firebase, Chirp</p>
+                  <p>Tech Stack: Flutter, Python, Firebase, Chirp</p>
                   <hr>
                   <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/SLSApp" target="blank">Smart Lock</a></p>
                 </h3>
               </div>
             </div>
           </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row mar-bot-15">
+            
+          <div class="col-md-1"></div>
+          <div class="col-md-4" style="text-align: center">
+            <div class='card'>
+              <div class='front'>
+                <span class='name'>Xylophone</span>
+                <hr>
+                <img src='./images/xylophone.png' class='image' />
+              </div>
+              <div class='back'>
+                <h3>
+                  <p>A virtual xylophone app right on your phone.</p>
+                  <hr> 
+                  <p>Tech Stack: Flutter</p>
+                  <hr>
+                  <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/xylophone-flutter" target="blank">Outfit Planner</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+          
           <div class="col-md-1"></div>
 
             <div class="col-md-4">
@@ -83,7 +214,7 @@
                   <h3>
                     <p>Android application to assist blind/colorblind people in choosing their attire.</p>
                     <hr> 
-                    <p>Android Studio; Heroku; Python- Flask, Webcolors</p>
+                    <p>Tech Stack: Android Studio; Heroku; Python- Flask, Webcolors</p>
                     <hr>
                     <p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/raj-vora/OutfitPlanner" target="blank">Outfit Planner</a></p>
                   </h3>
@@ -92,9 +223,9 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-
+        <br><h3 class="text-uppercase text-center">Web Applications</h3><br>
         <div class="row mar-bot-15">
-          <h3 class="text-uppercase text-center">Web Applications</h3><br>
+          
           <div class="col-md-1"></div>
           <div class="col-md-4">
             <div class='card'>
