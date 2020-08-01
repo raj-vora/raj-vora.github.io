@@ -202,10 +202,6 @@ ul{
   border: 1px solid;
 } 
 
-@media screen and (max-width:991px){
-  
-}
-
 @media screen and (max-width: 800px) { /* The width is 100%, when the viewport is 800px or smaller */
   .front, .back {
     margin-left: 0;
@@ -228,6 +224,10 @@ ul{
   .image {
     height: 70%;
     width: 70%;
+  }
+  
+  .small-text {
+    font-size: 4vw;
   }
 
   h3 {
