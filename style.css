@@ -150,7 +150,7 @@ ul{
           transition-timing-function: linear;
   background-color: rgb(120,120,120);
   border: 3px solid #3C3C3C; 
-  border-radius: 5px;
+  border-radius: 20px;
   margin-left: 10%;
   margin-right: 10%;
   /*padding for placement of actual portfolio sites. remove once portfolio sites go in. purpose is just for spacing*/
