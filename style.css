@@ -212,6 +212,12 @@ ul {
     border: 1px solid;
 }
 
+@media(min-width: 767px) {
+    .sm-phone {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 800px) {
     /* The width is 100%, when the viewport is 800px or smaller */
     .front,
@@ -237,6 +243,9 @@ ul {
     }
     .small-text {
         font-size: 4vw;
+    }
+    .social-media {
+        font-size: 8vw;
     }
     h3 {
         font-size: 4.5vw;
