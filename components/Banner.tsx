@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Raj Vora
         <span className="text-textDark mt-2 lgl:mt-4">
-        I build things for the mobile and web.
+          I create dynamic, cutting-edge solutions for both mobile and web platforms.
         </span>
       </motion.h1>
       <motion.p
