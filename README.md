@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Flutter, Certified in Cybersecurity, Javascript Essentials**
 
-- 🤝 I’m looking for help with [getting a job](https://raj-vora.github.io/assets/Raj%20Vora%20-%20UF.pdf)
+- 🤝 I’m looking for help with [getting a job](https://raj-vora.github.io/Raj%20Vora%20-%20UF.pdf)
 
 - 👨‍💻 All of my projects are available at [https://github.com/raj-vora](https://github.com/raj-vora)
 
