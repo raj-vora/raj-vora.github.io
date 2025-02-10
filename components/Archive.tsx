@@ -14,9 +14,9 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Beam"
-          des=" Chrome Extension to share your streaming accounts with your friends without giving out your passwords"
-          listItem={["Javascript", "Firestore", "Express", "NodeJS", "EJS", "JQuery"]}
+          title="Recipe Search App"
+          des="Recipe searching application created using React and API from EDAMAM"
+          listItem={["ReactJS", "EDAMAM API"]}
           link=""
         />
         <ArchiveCard
