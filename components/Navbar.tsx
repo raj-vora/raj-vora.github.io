@@ -109,7 +109,7 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <span className="text-textGreen">03.</span>
-                Project
+                Projects
               </motion.li>
             </Link>
             <Link
@@ -127,7 +127,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/Raj Vora - UF.pdf" target="_blank">
+          <Link href="/Raj Vora - UF.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -136,7 +136,7 @@ const Navbar = () => {
             >
               Resume
             </motion.button>
-          </a>
+          </Link>
         </div>
         {/* ============== Small Icon Start here =========== */}
         <div
