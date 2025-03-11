@@ -4,10 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
-  SlSocialFacebook,
   SlSocialInstagram,
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
@@ -127,7 +125,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <Link href="Raj Vora - UF.pdf" target="_blank">
+          <a href="/Raj_Vora_UF.pdf" target="_blank" rel="noopener noreferrer">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -136,7 +134,7 @@ const Navbar = () => {
             >
               Resume
             </motion.button>
-          </Link>
+          </a>
         </div>
         {/* ============== Small Icon Start here =========== */}
         <div
