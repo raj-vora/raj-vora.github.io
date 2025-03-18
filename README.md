@@ -4,13 +4,13 @@
 
 <h3>MS CS Graduate '24 | Web Developer | Flutter Developer | ex-media.net</h3>
 
-- 🔭 I’m currently working on [URL Shortner](https://url.rajvora.tech)
+- 🔭 I’m currently working on [URL Shortner](https://https://url.rajvora.tech)
 
 - 🌱 I’m currently learning **Flutter, Certified in Cybersecurity, Javascript Essentials**
 
 - 🤝 I’m looking for help with [getting a job](https://raj-vora.github.io/Raj%20Vora%20-%20UF.pdf)
 
-- 👨‍💻 All of my projects are available at [url.rajvora.tech/github](url.rajvora.tech/github)
+- 👨‍💻 All of my projects are available at [https://url.rajvora.tech/github](https://url.rajvora.tech/github)
 
 - 💬 Ask me about **Flutter, react, mobile app development, freelancing**
 
@@ -22,8 +22,8 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="url.rajvora.tech/linkedin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rajvora25/" height="30" width="40" /></a>
-<a href="url.rajvora.tech/instagram" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajvora._" height="30" width="40" /></a>
+<a href="https://url.rajvora.tech/linkedin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rajvora25/" height="30" width="40" /></a>
+<a href="https://url.rajvora.tech/instagram" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajvora._" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

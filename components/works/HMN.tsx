@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const NPL = () => {
+const HMN = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,7 +11,7 @@ const NPL = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Software Engineer
-        <span className="text-textGreen tracking-wide">@Neuromscular Physiology Lab</span>
+        <a href="https://url.rajvora.tech/hmn" target="_blank"><span className="text-textGreen tracking-wide">@Human Motor Neuroscience Lab</span></a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         February 2024 - present
@@ -21,13 +21,13 @@ const NPL = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Created a Flutter app that records and analyses patient audio files to help identify neuromuscular issues, making sure the data is captured accurately and processed efficiently.
+          Created 3 Flutter apps for recording and analysing neuromuscular information, innovating data collection methods
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designed a responsive mobile application UI in Figma, creating over 15 detailed screens that prioritize user experience and intuitive navigation for patients.
+          Devised a responsive mobile UI in Figma with 15+ screens, prioritizing user experience and user navigation.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -39,17 +39,17 @@ const NPL = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Implemented seamless API integration with a Vanilla PHP backend, ensuring reliable data collection and consistency.
+          Integrated 10+ REST APIs employing a PHP backend, ensuring reliable collection and consistency with SQL database.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Conducted user testing sessions with healthcare professionals to gather feedback, refine features, and improve the overall usability and effectiveness of the application.
+          Conducted user testing to refine features, applying object-oriented principles and user interaction refinements
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default NPL;
+export default HMN;

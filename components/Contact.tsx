@@ -16,7 +16,7 @@ const Contact = () => {
         Let’s connect and explore how I can contribute to your company’s success!
       </p>
 
-      <a href="url.rajvora.tech/email">
+      <a href="https://url.rajvora.tech/email">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
           Say Hello
         </button>

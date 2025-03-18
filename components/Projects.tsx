@@ -59,7 +59,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/nurdtechie98/Trav-nal"
+            href="https://url.rajvora.tech/travnal"
             target="_blank"
           >
             <div>
@@ -94,7 +94,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/nurdtechie98/Trav-nal"
+                href="https://url.rajvora.tech/travnal"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -107,7 +107,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="url.rajvora.tech/twittErr"
+            href="https://url.rajvora.tech/twittEr"
             target="_blank"
           >
             <div>
@@ -144,7 +144,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="url.rajvora.tech/twittEr"
+                href="https://url.rajvora.tech/twittEr"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -157,7 +157,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="url.rajvora.tech/btc"
+            href="https://url.rajvora.tech/btc"
             target="_blank"
           >
             <div>
@@ -191,7 +191,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="url.rajvora.tech/btc"
+                href="https://url.rajvora.tech/btc"
                 target="_blank"
               >
                 <TbBrandGithub />

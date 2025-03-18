@@ -17,28 +17,28 @@ const Archive = () => {
           title="Recipe Search App"
           des="Recipe searching application created using React and API from EDAMAM"
           listItem={["ReactJS", "EDAMAM API"]}
-          link="url.rajvora.tech/rs"
+          link="https://url.rajvora.tech/rs"
         />
         <ArchiveCard
           title="Expense Manager"
           des=" Developed an Expense Manager application during KJSCE HACK 2019, which utilized OCR technology to automatically extract bill amounts and restaurant names. 
           The app managed expenses for both individuals and groups, streamlining the process of expense tracking and management."
           listItem={["HTML", "CSS", "JavaScript", "PHP", "MySQL"]}
-          link="url.rajvora.tech/em"
+          link="https://url.rajvora.tech/em"
         />
         <ArchiveCard
           title="Gator Taxi"
           des=" GatorTaxi is an up-and-coming ride-sharing service. 
           They get many ride requests every day and are planning to develop new software to keep track of their pending ride requests."
           listItem={["Python"]}
-          link="url.rajvora.tech/gt"
+          link="https://url.rajvora.tech/gt"
         />
         <ArchiveCard
           title="Full Stack Development Course"
           des=" Learnt React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go!  
           The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js."
           listItem={["React", "Redux", "Node.js", "MongoDB", "GraphQL", "TypeScript"]}
-          link="url.rajvora.tech/fs"
+          link="https://url.rajvora.tech/fs"
         />
         <ArchiveCard
           title="Flutter UIs"

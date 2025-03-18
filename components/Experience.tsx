@@ -1,9 +1,8 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./works/Amazon";
 import Apple from "./works/Halara";
 import Google from "./works/MediaNet";
-import ReactBD from "./works/NPL";
+import ReactBD from "./works/HMN";
 import Splash from "./works/Somaiya";
 
 const Experience = () => {

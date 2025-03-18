@@ -10,7 +10,7 @@ const Medianet = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Web Application Developer
-        <span className="text-textGreen tracking-wide">@media.net</span>
+        <a href="https://media.net" target="_blank"><span className="text-textGreen tracking-wide">@media.net</span></a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         January 2022 - Jul 2022
