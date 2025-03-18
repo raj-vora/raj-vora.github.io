@@ -42,7 +42,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/raj-vora" target="_blank">
+      <a href="url.rajvora.tech/github" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
