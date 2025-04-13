@@ -1,6 +1,5 @@
-import { beamImg, travnalImg, twitterImg, minerImg } from "@/public/assets";
+import { beamImg, travnalImg, cacheupImg, urlImg } from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -9,8 +8,110 @@ const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some Things I have Built" titleNo="03" />
-      {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        {/* ============ project One Start here ================ */}
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://cacheup.tech"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={cacheupImg}
+                alt="cacheupImg"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left xl:-ml-16 z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Cache Up</h3>
+            </div>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              📥 Built an AI-powered news app that summarizes top Hacker News stories daily.
+              <br />
+              🧠 Leveraged NLP models to generate concise 200-word summaries entirely through AI.
+              <br />
+              🔄 End-to-end automation: from content scraping to summarization and delivery.
+              <br />
+              ⚡ Designed for speed and clarity — stay updated in under a minute per story.
+              <br />
+              📱 Built with a minimal UI for fast, distraction-free reading experience.
+              <br />
+              🚀 Eliminated information overload while preserving the core of each tech trend.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>MCP</li>
+              <li>OpenAI</li>
+              <li>NextJS</li>
+              <li>Flutter</li>
+              <li>Docker</li>
+              <li>Vercel</li>
+              <li>Fast API</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://cacheup.tech"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* ============ project One End here ================== */}
+        {/* ============ project Two Start here ================ */}
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://url.rajvora.tech"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={urlImg}
+                alt="urlImg"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-left z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">URL Shortener</h3>
+            </div>
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+              Link or URL Shortener for long URLs. All links on this website use this project. Used as a personal url shortener for my websites. Also shows number of link clicks for each shortened code.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>Vercel</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>NeonDB (Postgres)</li>
+              <li>Knex</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://url.rajvora.tech"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* ============ project Two End here ================== */}
+        {/* ============ project Three Start here ================ */}
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
@@ -26,7 +127,7 @@ const Projects = () => {
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -54,8 +155,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* ============ project One End here ================== */}
-        {/* ============ project Two Start here ================ */}
+        {/* ============ project Three End here ================== */}
+        {/* ============ project Four Start here ================ */}
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
@@ -71,7 +172,7 @@ const Projects = () => {
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-left z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -95,103 +196,6 @@ const Projects = () => {
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://url.rajvora.tech/travnal"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* ============ project Two End here ================== */}
-        {/* ============ project Three Start here ============== */}
-        <div className="flex flex-col xl:flex-row gap-6">
-          <a
-            className="w-full xl:w-1/2 h-auto relative group"
-            href="https://url.rajvora.tech/twittEr"
-            target="_blank"
-          >
-            <div>
-              <Image
-                className="w-full h-full object-contain"
-                src={twitterImg}
-                alt="twitterImg"
-              />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
-            </div>
-          </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
-            <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Featured Project
-              </p>
-              <h3 className="text-2xl font-bold">TwittEr</h3>
-            </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md text-left">
-              <span className="text-textGreen">➤</span> Designed a console-based Twitter clone in Erlang with 10+ features, including user search, tweets & retweets,
-              subscriptions, follower management, and a real-time tweet timeline.
-              <br />
-              <span className="text-textGreen">➤</span> Lowered the code complexity by 60% (and removed boilerplate code altogether) by incorporating generic behaviors
-              in the back-end system (made with Cowboy).
-              <br />
-              <span className="text-textGreen">➤</span> Reached near real-time database performance (request-response latency under 2.2 ms, in Mnesia) by switching
-              to a fast, hash-based user authentication and authorization mechanism.
-            </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Erlang/OTP</li>
-              <li>Mnesia</li>
-              <li>Cowboy</li>
-            </ul>
-            <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://url.rajvora.tech/twittEr"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* ============ project Three End here ================== */}
-        {/* ============ project Four Start here ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
-          <a
-            className="w-full xl:w-1/2 h-auto relative group"
-            href="https://url.rajvora.tech/btc"
-            target="_blank"
-          >
-            <div>
-              <Image
-                className="w-full h-full object-contain"
-                src={minerImg}
-                alt="minerImg"
-              />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
-            </div>
-          </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
-            <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Featured Project
-              </p>
-              <h3 className="text-2xl font-bold">MinEr</h3>
-            </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16 text-left">
-              <span className="text-textGreen">➤</span> Developed a highly distributed, scalable (proof-of-concept) cryptocurrency miner in Erlang and enhanced its flexibility with the help of 5 different hashing algorithms.
-              <br />
-              <span className="text-textGreen">➤</span> Attained a hash rate of 10K Hs/s (on each node) by employing a custom, distributed mining approach that uses concurrent, lightweight, and highly parallelized worker processes.
-              <br />
-              <span className="text-textGreen">➤</span> Used supervision trees to make the system more fault-tolerant and eliminated 80% of all runtime errors with the help of Erlang’s robust error-handling mechanisms.
-            </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Erlang/OTP</li>
-              <li>Mnesia</li>
-              <li>Cowboy</li>
-            </ul>
-            <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://url.rajvora.tech/btc"
                 target="_blank"
               >
                 <TbBrandGithub />

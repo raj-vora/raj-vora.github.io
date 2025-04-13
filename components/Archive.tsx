@@ -14,6 +14,18 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
+          title="TwittEr"
+          des="Designed a Twitter clone in Erlang. Lowered the code complexity by 60%, in the back-end system made with Cowboy. Reached near real-time database performance (request-response latency under 2.2 ms, in Mnesia)"
+          listItem={["Erlang/OTP", "Mnesia", "Cowboy"]}
+          link="https://url.rajvora.tech/twittEr"
+        />
+        <ArchiveCard
+          title="MinEr"
+          des="Developed a highly distributed, scalable (proof-of-concept) bitcoin miner in Erlang. Attained a hash rate of 10K Hs/s on each node by employing a custom, distributed mining approach that uses concurrent, lightweight, and highly parallelized worker processes."
+          listItem={["Erlang/OTP", "Mnesia", "Cowboy"]}
+          link="https://url.rajvora.tech/btc"
+        />
+        <ArchiveCard
           title="Recipe Search App"
           des="Recipe searching application created using React and API from EDAMAM"
           listItem={["ReactJS", "EDAMAM API"]}
@@ -37,28 +49,37 @@ const Archive = () => {
           title="Full Stack Development Course"
           des=" Learnt React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go!  
           The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js."
-          listItem={["React", "Redux", "Node.js", "MongoDB", "GraphQL", "TypeScript"]}
+          listItem={["React", "Node.js", "MongoDB", "GraphQL", "TypeScript"]}
           link="https://url.rajvora.tech/fs"
         />
-        <ArchiveCard
-          title="Flutter UIs"
-          des=" Created multiple UIs learning from various flutter courses."
-          listItem={["Flutter"]}
-          link="https://github.com/raj-vora/flutter_uis"
-        />
-        <ArchiveCard
-          title="Connect 3"
-          des=" Connect 3 android application / modified X and Os"
-          listItem={["Android"]}
-          link="https://github.com/raj-vora/connect3"
-        />
-
         {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.1 }}
+              transition={{ delay: 0.1 }}>
+              <ArchiveCard
+                title="Flutter UIs"
+                des=" Created multiple UIs learning from various flutter courses."
+                listItem={["Flutter"]}
+                link="https://github.com/raj-vora/flutter_uis"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}>
+              <ArchiveCard
+                title="Connect 3"
+                des=" Connect 3 android application / modified X and Os"
+                listItem={["Android"]}
+                link="https://github.com/raj-vora/connect3"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
             >
               <ArchiveCard
                 title="Todoey"
@@ -70,7 +91,7 @@ const Archive = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
+              transition={{ delay: 0.4 }}
             >
               <ArchiveCard
                 title="Clima"
@@ -82,7 +103,7 @@ const Archive = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.5 }}
             >
               <ArchiveCard
                 title="Flash Chat"
@@ -94,7 +115,7 @@ const Archive = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
+              transition={{ delay: 0.6 }}
             >
               <ArchiveCard
                 title="Bitcoin Ticker"
@@ -106,7 +127,7 @@ const Archive = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              transition={{ delay: 0.7 }}
             >
               <ArchiveCard
                 title="Notekeeper"
@@ -118,7 +139,7 @@ const Archive = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
+              transition={{ delay: 0.8 }}
             >
               <ArchiveCard
                 title="BMI Calculator"
