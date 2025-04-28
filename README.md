@@ -1,4 +1,4 @@
-<h1><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=1589F0&multiline=false&random=false&width=450&height=40&lines=Hi+👋+I'm+Raj+Vora" alt="Typing SVG" /></h1>
+<h1>Hi My Name is Raj Jayesh Vora</h1>
 
 <h3>I build things for the mobile and web.</h3>
 
