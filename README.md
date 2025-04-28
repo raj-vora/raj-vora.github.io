@@ -1,4 +1,4 @@
-<h1>Hi My Name is Raj Jayesh Vora</h1>
+<h1>Hi my name is Raj Jayesh Vora</h1>
 
 <h3>I build things for the mobile and web.</h3>
 
