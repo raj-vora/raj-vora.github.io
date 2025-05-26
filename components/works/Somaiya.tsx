@@ -33,7 +33,7 @@ const Somaiya = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Deployed a Python API to analyze camera images and identify the predominant color from a dataset of 150 colors
+          Deployed a Python API to analyze camera images and identify the predominant color from a dataset of 150 colors.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

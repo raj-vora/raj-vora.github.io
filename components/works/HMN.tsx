@@ -21,31 +21,31 @@ const HMN = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Created 3 Flutter apps for recording and analysing neuromuscular information, innovating data collection methods
+          Innovated 3 Flutter apps for recording neuromuscular and audio information, innovating data collection methods.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Devised a responsive mobile UI in Figma with 15+ screens, prioritizing user experience and user navigation.
+          Designed responsive mobile UIs in Figma with 15+ screens, prioritizing user experience and patient navigation.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Architected a React-based dashboard tailored for patient onboarding, providing an intuitive interface for managing patient data and ensuring smooth workflow.
+          Integrated 10+ REST APIs employing Laravel backend, ensuring reliable collection and consistency with SQL database.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Integrated 10+ REST APIs employing a PHP backend, ensuring reliable collection and consistency with SQL database.
+          Leveraging AWS Amplify for seamless data integration, built a NextJS dashboard for data processing and modelling.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Conducted user testing to refine features, applying object-oriented principles and user interaction refinements
+          Conducted user testing to refine features, applying object-oriented principles and user interaction refinements.
         </li>
       </ul>
     </motion.div>

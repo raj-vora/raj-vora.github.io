@@ -20,37 +20,37 @@ const Medianet = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Spearheaded and managed API proxy service to manage access and reduce page load time by 50%.
+          Spearheaded and remediated API proxy service to manage and reduce page load time by 50%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Implemented 7 data pipelines using Spring framework, improving dataflow efficiency by 20%.
+          Implemented 7 data pipelines using Spring and Elasticsearch, improving data processing stream efficiency by 20%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Devised 3 logging infrastructures visualized using Apache Kafka to increase data availability and integrity by 25%.
+          Devised 3 logging infrastructures visualized using Apache Kafka to increase logs availability and integrity by 25%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Modified ad pixel tracking workflow using Logstash, resulting in a 20% increase in revenue.
+          Refined the ad pixel tracking workflow using Logstash and Spring boot, leading to a 20% increase in revenue.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designed interactive dashboards in Kibana to visualize data and generate insights for decision-making.
+          Drafted interactive dashboards in Kibana to visualize parameters and generate insights for decision-making.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Configured and updated 4 Kubernetes clusters for APIs and backend servers, enhancing load balancing.
+          Configured and updated 6 Kubernetes clusters for APIs and backend servers, enhancing load balancing.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -72,31 +72,31 @@ const Medianet = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Migrated CakePHP infrastructure from singleton design pattern to factory pattern, reducing website load time by 500ms and increasing revenue by 10%.
+          Migrated CakePHP from singleton to factory pattern, cutting load time by 500ms and boosting revenue by 10%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Administered the PHP server architecture for 700+ websites, implementing updates and improvements to maintain smooth operation.
+          Maintained a hybrid web architecture integrating WordPress and CakePHP, ensuring seamless functionality across 700+ ad-driven websites.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Added new functionalities to internal ad dashboard made in React.JS, creating 5 new workflows.
+          Enhanced internal dashboard built in React.js by creating 5 streamlined workflows to improve operational efficiency.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Coordinated system architecture development to serve WordPress and CakePHP websites from the same backend.
+          Coordinated system architecture development to serve CakePHP websites utilizing multiple micro-services.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Led cross-functional projects, coordinating with product and design teams to deliver robust solutions.
+          Optimized page load times by 800ms through implementation of Redis caching, resulting in improved performance.
         </li>
       </ul>
     </motion.div>

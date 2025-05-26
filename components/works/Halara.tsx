@@ -21,19 +21,19 @@ const Halara = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Conducted mobile application development in Flutter for online games application Play Hatke.
+          Enhanced app performance and user experience using Flutter and utilized MongoDB for efficient data storage.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developed 3 functional pages for player ranking, user profile and in-app wallet and incorporated 2 mini-games.
+          Improved user engagement by developing player ranking, user profile pages, and incorporated 2 mini-games.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Engineered 15 server-side APIs in NodeJS for the corresponding pages and mini-games.
+          Architected 15 server-side APIs with Node.js resulting in faster data retrieval and improved game performance.
         </li>
       </ul>
     </motion.div>
