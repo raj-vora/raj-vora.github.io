@@ -1,102 +1,54 @@
+'use client';
+
 import { useState } from "react";
-import SectionTitle from "./SectionTitle";
-import Apple from "./works/Halara";
-import Google from "./works/MediaNet";
-import ReactBD from "./works/HMN";
-import Splash from "./works/Somaiya";
+import Halara from "./works/Halara";
+import MediaNet from "./works/MediaNet";
+import HMN from "./works/HMN";
+import Somaiya from "./works/Somaiya";
+
+const experiences = [
+  { id: 'hmn', name: 'HMN', component: <HMN /> },
+  { id: 'medianet', name: 'Media.net', component: <MediaNet /> },
+  { id: 'halara', name: 'Halara', component: <Halara /> },
+  { id: 'somaiya', name: 'Somaiya', component: <Somaiya /> },
+];
 
 const Experience = () => {
-  const [workNPL, setWorkNPL] = useState(true);
-  const [workMediaNet, setWorkMediaNet] = useState(false);
-  const [workHalara, setWorkHalara] = useState(false);
-  const [workSomaiya, setWorkSomaiya] = useState(false);
+  const [activeExperience, setActiveExperience] = useState('hmn');
 
-  const handleReactbd = () => {
-    setWorkNPL(true);
-    setWorkMediaNet(false);
-    setWorkHalara(false);
-    setWorkSomaiya(false);
-  };
-
-  const handleGoogle = () => {
-    setWorkNPL(false);
-    setWorkMediaNet(true);
-    setWorkHalara(false);
-    setWorkSomaiya(false);
-  };
-
-  const handleApple = () => {
-    setWorkNPL(false);
-    setWorkMediaNet(false);
-    setWorkHalara(true);
-    setWorkSomaiya(false);
-  };
-  const handleSplash = () => {
-    setWorkNPL(false);
-    setWorkMediaNet(false);
-    setWorkHalara(false);
-    setWorkSomaiya(true);
-  };
-  const handleAmazon = () => {
-    setWorkNPL(false);
-    setWorkMediaNet(false);
-    setWorkHalara(false);
-    setWorkSomaiya(false);
-  };
   return (
-    <section
-      id="experience"
-      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
-    >
-      <SectionTitle title="Where I have Worked" titleNo="02" />
-      <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
-          <li
-            onClick={handleReactbd}
-            className={`${
-              workNPL
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            HMN
-          </li>
-          <li
-            onClick={handleGoogle}
-            className={`${
-              workMediaNet
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Media.net
-          </li>
-          <li
-            onClick={handleApple}
-            className={`${
-              workHalara
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Halara
-          </li>
-          <li
-            onClick={handleSplash}
-            className={`${
-              workSomaiya
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Somaiya
-          </li>
-          
+    <section id='experience' className="py-20 w-full">
+      <h1 className="heading">
+        My <span className="text-purple">work experience</span>
+      </h1>
+      <div className="w-full mt-12 flex flex-col md:flex-row gap-10 md:gap-16">
+        {/* --- Navigation List --- */}
+        <ul className="flex flex-row overflow-x-auto w-full md:flex-col md:w-40">
+          {experiences.map((exp) => (
+            <li
+              key={exp.id}
+              onClick={() => setActiveExperience(exp.id)}
+              className={`
+                relative flex-shrink-0 text-center py-3 px-5
+                text-sm font-medium cursor-pointer duration-300
+                border-b-2 md:border-b-0 md:border-l-2 md:text-left
+                whitespace-nowrap hover:bg-[#112240] hover:text-purple
+                ${activeExperience === exp.id
+                  ? 'text-purple border-purple' 
+                  : 'text-white/70 border-transparent md:border-white/20' 
+                }
+              `}
+            >
+              {exp.name}
+            </li>
+          ))}
         </ul>
-        {workNPL && <ReactBD />}
-        {workMediaNet && <Google />}
-        {workHalara && <Apple />}
-        {workSomaiya && <Splash />}
+
+        {/* --- Content Display --- */}
+        <div className="w-full">
+          {/* Find the active component from the array and render it */}
+          {experiences.find(exp => exp.id === activeExperience)?.component}
+        </div>
       </div>
     </section>
   );

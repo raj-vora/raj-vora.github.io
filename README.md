@@ -1,29 +1,29 @@
-<h1>Hi my name is Raj Jayesh Vora</h1>
+<h1><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=1589F0&multiline=false&random=false&width=450&height=40&lines=Hi+👋+I'm+Raj+Vora" alt="Hi 👋 I'm Raj Vora" /></h1>
 
 <h3>I build things for the mobile and web.</h3>
 
-<h3>MS CS Graduate '24 | Web Developer | Flutter Developer | ex-media.net</h3>
+<h3>MS CS Graduate '24 @University of Florida | Web Developer | Flutter Developer | ex-media.net</h3>
 
 - 🔭 I’m currently working on [MeetScribe](https://github.com/raj-vora/meetscribe)
 
-- 🌱 I’m currently learning **[Machine Learning](https://www.coursera.org/learn/machine-learning), [Deep Learning](https://www.coursera.org/specializations/deep-learning)**
+- 🌱 I’m currently learning **PowerBI, Tableau, Snowflake**
 
 - 🤝 I’m looking for help with [getting a job](https://url.rajvora.tech/resume)
 
-- 👨‍💻 All of my projects are available on my [github](https://url.rajvora.tech/github)
+- 👨‍💻 All of my projects are available at [https://github.com/raj-vora](https://url.rajvora.tech/github)
 
 - 💬 Ask me about **Flutter, react, mobile app development, freelancing**
 
 - 📫 How to reach me **rajvora1998@gmail.com**
 
-- 📄 Know about my experiences [rajvora.tech](https://rajvora.tech)
+- 📄 Know about my experiences [rajvora.tech](https://rajvora.tech/)
 
 - ⚡ Fun fact **I cook up some great stories and even better food**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://url.rajvora.tech/linkedin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rajvora25/" height="30" width="40" /></a>
-<a href="https://url.rajvora.tech/instagram" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajvora._" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/rajvora25/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rajvora25/" height="30" width="40" /></a>
+<a href="https://instagram.com/rajvora._" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajvora._" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
