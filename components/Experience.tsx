@@ -1,9 +1,9 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Apple from "./works/Halara";
-import Google from "./works/MediaNet";
-import ReactBD from "./works/HMN";
-import Splash from "./works/Somaiya";
+import Halara from "./works/Halara";
+import MediaNet from "./works/MediaNet";
+import HMN from "./works/HMN";
+import Somaiya from "./works/Somaiya";
 
 const Experience = () => {
   const [workNPL, setWorkNPL] = useState(true);
@@ -46,7 +46,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
+      className="max-w-containers mx-auto py-10 lgl:py-24 px-4"
     >
       <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
@@ -93,10 +93,10 @@ const Experience = () => {
           </li>
           
         </ul>
-        {workNPL && <ReactBD />}
-        {workMediaNet && <Google />}
-        {workHalara && <Apple />}
-        {workSomaiya && <Splash />}
+        {workNPL && <HMN />}
+        {workMediaNet && <MediaNet />}
+        {workHalara && <Halara />}
+        {workSomaiya && <Somaiya />}
       </div>
     </section>
   );
